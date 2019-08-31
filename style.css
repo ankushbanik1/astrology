@@ -92,7 +92,8 @@ body {
 }
 
 .jj{
-    background-color: rgb(250, 253, 34);
+	background-color: rgb(250, 253, 34);
+	
     color: green;
 }
 .container {
@@ -190,4 +191,59 @@ fieldset {
 }
 .py-3{
     color: #FFF;
+}
+.fa-code{
+    color: orangered;
+}
+.fa-bold{
+    color: blue;
+}
+.fa-css3{
+    color: blueviolet;
+}
+.fa-bold,.fa-code,.fa-css3{
+    font-size: 5em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.gif{
+    max-width: 100%;
+}
+.social a{
+    font-size: 405%;
+    padding: 2rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-google-plus{
+    color:  #dd4b39;
+}
+.fa-youtube{
+    color:red;}
+.fa-instagram{
+    color: cornflowerblue;
+}
+.fa-facebook:hover,
+.fa-google-plus:hover,
+.fa-instagram:hover,
+.fa-youtube:hover{
+    color: rgb(44, 40, 26);
+}
+footer{
+    background-color: rgb(20, 43, 30);
+    color: azure;
+
+}
+hr-light{
+   border-top: 1px solid #d5d5d5;
+   width: 75%;
+   color: #FFF;
+   margin-top:.9rem;
+   margin-bottom: 1rem;
+}
+.item-center{
+	align-items: center;
+	position: center;
 }
