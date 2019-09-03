@@ -1,5 +1,5 @@
 body{
-    background-color: green;
+    background-color: rgb(43, 153, 43);
 }
 .container{
     margin-right: 20%;
@@ -7,7 +7,7 @@ body{
     margin-top: 100px;
   }
   .carousel-item {
-    height: 100vh;
+    height: 70vh;
     min-height: 400px;
     
     background: no-repeat center center scroll;
@@ -88,13 +88,13 @@ body {
 	font-size: 12px;
 	line-height:30px;
 	color:#777;
-	background:rgb(7, 54, 28);
 }
 
 .jj{
-	background-color: rgb(250, 253, 34);
-	
-    color: green;
+	background-image: url("img/bl.jpg");
+	position: relative;
+	color: rgb(253, 34, 18);
+	stroke: #222;
 }
 .container {
 	max-width:400px;
@@ -246,4 +246,23 @@ hr-light{
 .item-center{
 	align-items: center;
 	position: center;
+}
+.color{
+	color: yellow;
+}
+.mar{
+	align-content: flex-end;
+	background-color: yellow;
+	color: rgb(4, 24, 4);
+	font-family: Arial, Helvetica, sans-serif;
+	size: 20px;
+}
+.top-texx{
+	color: yellow;
+}
+.bb{
+	background-attachment: fixed;
+	background-color: rgb(57, 131, 106)
+	;
+	color: #222;
 }
